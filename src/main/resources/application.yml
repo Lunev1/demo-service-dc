@@ -1,0 +1,11 @@
+server:
+  port: 9000
+  shutdown: graceful
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+#  datasource:
+#    url: jdbc:postgresql://${postgres_url}/
+#    username: ${postgres_user}
+#    password: ${postgres_pw}
